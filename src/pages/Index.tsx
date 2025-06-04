@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { Github, Linkedin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import HobbiesSection from "@/components/HobbiesSection";
 
 const Index = () => {
   return (
@@ -112,6 +113,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Hobbies Section */}
+      <HobbiesSection />
     </div>
   );
 };
