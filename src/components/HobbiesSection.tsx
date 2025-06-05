@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 const HobbiesSection = () => {
@@ -6,25 +5,25 @@ const HobbiesSection = () => {
     {
       title: "Automotive Passie",
       description: "Klassieke auto's zijn een grote passie van mij. Ik geniet van het waarderen van tijdloze automotive designs en het bijwonen van classic car events.",
-      image: "/lovable-uploads/479bcd78-f5c4-416e-946a-1a1acc97612a.png",
+      image: "/images/hobbies/classic-car.jpg",
       alt: "Klassieke Porsche 911"
     },
     {
       title: "Racing & Motorsport",
       description: "De wereld van motorsport fascineert mij enorm. Van historische racewagens tot moderne technologie - de combinatie van engineering en prestatie inspireert mij.",
-      image: "/lovable-uploads/ffbd0773-3f50-426c-aba8-7c052c545d88.png",
+      image: "/images/hobbies/racing.jpg",
       alt: "BMW racewagen"
     },
     {
       title: "Tech & Setup",
       description: "Technologie is niet alleen mijn werk, maar ook mijn hobby. Ik houd van het optimaliseren van mijn setup en het verkennen van nieuwe technologieën.",
-      image: "/lovable-uploads/aa4a5d79-8254-4fe8-abcf-13a2b07dd64b.png",
+      image: "/images/hobbies/tech-setup.jpg",
       alt: "Tech setup met dual monitors"
     },
     {
       title: "Reizen & Cultuur",
       description: "Reizen opent je horizon. Of het nu gaat om het verkennen van historische architectuur of het ondervinden van nieuwe culturen - elk avontuur brengt nieuwe inzichten.",
-      image: "/lovable-uploads/c76cf393-0430-4ca2-bd2d-bf8387c68a63.png",
+      image: "/images/hobbies/travel.jpg",
       alt: "Duomo di Milano"
     }
   ];
@@ -66,10 +65,10 @@ const HobbiesSection = () => {
         </div>
 
         {/* Personal Touch */}
-        <div className="mt-16 text-center">
+        <div className="mt-16">
           <div className="max-w-4xl mx-auto">
             <img 
-              src="/lovable-uploads/eab6c629-0710-4508-8543-3995e4fb70ef.png" 
+              src="/images/hobbies/friends.jpg" 
               alt="Julian met vrienden"
               className="w-full max-w-2xl mx-auto rounded-2xl shadow-lg mb-8"
             />
